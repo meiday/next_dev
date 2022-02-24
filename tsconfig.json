@@ -15,7 +15,9 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "jsx": "preserve",
-    "isolatedModules": true
+    "isolatedModules": true,
+    "incremental": true,
+    "module": "esnext"
   },
   "include": [
     "**/*.ts",
